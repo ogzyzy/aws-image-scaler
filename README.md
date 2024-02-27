@@ -15,17 +15,18 @@ First, we need to set up an S3 Bucket for uploading images and another one where
 After navigating to the S3 service, select "Create Bucket."
 ![Screenshot 2024-02-26 at 16 02 46](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9671277d-b270-41dc-be63-641e83b6bdf9)
 
-Now, choose your region, the best option being the one closest to you, and give a name to your S3 bucket. **The name must be unique**, and it should indicate that this is the source bucket from which Lambda will fetch images.
+Now, **choose your region, the best option being the one closest to you**, and give a name to your S3 bucket. **The name must be unique**, and it should indicate that this is the source bucket from which Lambda will fetch images.
 ![Screenshot 2024-02-26 at 16 06 28](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/1b41916c-af37-404d-907e-3cc8f5fb0a07)
 
-Repeat the same process for the destination bucket.
+Repeat the same process for the **destination bucket**.
 ![Screenshot 2024-02-26 at 16 22 31](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/12549d32-0a62-4c6a-ac54-67438266ed56)
 
-Now we configure the Lambda service. You can find it in the search bar.
+Now we configure the **Lambda service**. You can find it in the search bar.
 ![Screenshot 2024-02-26 at 16 23 11](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9451bb1b-bbbc-4863-a917-f6c78880c850)
 
-Select "Create a function."
+Select **"Create a function."**
 ![Screenshot 2024-02-26 at 16 28 03](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/355c2ce2-770b-4ba6-b02f-8557510eb526)
 
-Here, we need to provide information for our service. The function name does not need to be unique like in the case of S3 Buckets. For runtime, choose Python 3.12 and architecture as x86_64. Leave the rest of the options as default and click "Create function."
+Here, we need to provide information for our service. The function name **does not need to be unique** like in the case of S3 Buckets. 
+For r**untime**, choose **Python 3.12** and **architecture as x86_64**. Leave the rest of the options as default and click **"Create function."**
 ![Screenshot 2024-02-26 at 16 30 36](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/048fb6ad-a40b-4c50-a104-d1a9c6b6c5b3)
