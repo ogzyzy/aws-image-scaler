@@ -7,3 +7,4 @@ The application architecture consists of three main components:
 
 **AWS Lambda Function:** The heart of the application. It's triggered by events from the S3 bucket. Upon triggering, it retrieves the uploaded image, processes it according to predefined rules, and then stores the processed image to the other S3 bucket.
 
+## How to Create an Application
