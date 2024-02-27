@@ -14,3 +14,6 @@ First, we need to set up an S3 Bucket for uploading images and another one where
 
 After navigating to the S3 service, select "Create Bucket."
 ![Screenshot 2024-02-26 at 16 02 46](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9671277d-b270-41dc-be63-641e83b6bdf9)
+
+Now, choose your region, the best option being the one closest to you, and give a name to your S3 bucket. **The name must be unique**, and it should indicate that this is the source bucket from which Lambda will fetch images.
+![Screenshot 2024-02-26 at 16 06 28](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/1b41916c-af37-404d-907e-3cc8f5fb0a07)
