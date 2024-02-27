@@ -17,3 +17,6 @@ After navigating to the S3 service, select "Create Bucket."
 
 Now, choose your region, the best option being the one closest to you, and give a name to your S3 bucket. **The name must be unique**, and it should indicate that this is the source bucket from which Lambda will fetch images.
 ![Screenshot 2024-02-26 at 16 06 28](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/1b41916c-af37-404d-907e-3cc8f5fb0a07)
+
+Click on "Create Bucket."
+![Screenshot 2024-02-26 at 16 09 44](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/b2c17761-3043-487a-8de7-6d0fb6c70976)
