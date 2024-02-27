@@ -25,7 +25,7 @@ Now we configure the **Lambda service**. You can find it in the search bar.
 ![Screenshot 2024-02-26 at 16 23 11](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9451bb1b-bbbc-4863-a917-f6c78880c850)
 
 Select **"Create a function."**
-![Screenshot 2024-02-26 at 16 28 03](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/355c2ce2-770b-4ba6-b02f-8557510eb526)
+![Screenshot 2024-02-26 at 16 28 03](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/33f8ef3f-f49e-4da7-9a2d-03bb3aacd3a6)
 
 Here, we need to provide information for our service. The function name **does not need to be unique** like in the case of S3 Buckets. 
 For r**untime**, choose **Python 3.12** and **architecture as x86_64**. Leave the rest of the options as default and click **"Create function."**
