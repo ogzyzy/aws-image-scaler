@@ -32,4 +32,4 @@ Here, we need to provide information for our service. The function name **does n
 For r**untime**, choose **Python 3.12** and **architecture as x86_64**. Leave the rest of the options as default and click **"Create function."**
 ![Screenshot 2024-02-26 at 16 30 36](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/048fb6ad-a40b-4c50-a104-d1a9c6b6c5b3)
 
-Now we need to create an event in the source S3 Bucket. To do this, [go to the S3 Bucket service.](###ConfigureS3Buckets)
+Now we need to create an event in the source S3 Bucket. To do this, [go to the S3 Bucket service.](#Configure-S3-Buckets)
