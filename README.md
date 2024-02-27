@@ -9,6 +9,7 @@ The application architecture consists of three main components:
 
 ## How to Create an Application
 
+### Configure S3 Buckets
 First, we need to set up an S3 Bucket for uploading images and another one where the processed images will be stored. Let's log in to the AWS console and in the search bar, search for S3 Bucket.
 ![Screenshot 2024-02-26 at 16 00 59](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/7fcfaf67-4a73-4bae-bcef-af038f523f04)
 
@@ -30,3 +31,5 @@ Select **"Create a function."**
 Here, we need to provide information for our service. The function name **does not need to be unique** like in the case of S3 Buckets. 
 For r**untime**, choose **Python 3.12** and **architecture as x86_64**. Leave the rest of the options as default and click **"Create function."**
 ![Screenshot 2024-02-26 at 16 30 36](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/048fb6ad-a40b-4c50-a104-d1a9c6b6c5b3)
+
+Now we need to create an event in the source S3 Bucket. To do this, [go to the S3 Bucket service.](###ConfigureS3Buckets)
