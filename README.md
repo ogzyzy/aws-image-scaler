@@ -77,6 +77,10 @@ After navigating to the Lambda function, you can see that the source bucket has 
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/6f085a9f-d24d-428b-95bb-dd3e8009f4b6">
 
+<hr> 
+
+### Lambda configuration
+
 We will also need to adjust the timeout for the Lambda function to ensure the service works correctly.
 To do this, go to 'Configuration'. In the general configuration, you will find an option to edit.
 
