@@ -77,7 +77,9 @@ In the Lambda service, go to the 'Code' tab, and add the code from the repositor
 Upload a photo to S3. To do this, go to the S3 service, select the source bucket, and navigate to the 'images' folder. Then, click 'Upload'.
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/30cb5d48-3590-48e1-84a5-ee9e40000226">
 
+Drag and drop or click Add files.
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/5b3a3d2e-f414-4653-b934-15e49ada2fad">
+Then click Upload.
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/e40ad3ba-c640-49b5-8935-9dd6d0471749">
 
 
