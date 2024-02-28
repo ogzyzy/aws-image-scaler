@@ -71,6 +71,15 @@ Expand 'Add permission' and click 'Attach policies'.
 Search for the policy named "AmazonS3FullAccess" for S3, select it, and add it.
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/da002dac-e59d-45d0-a0d4-e7163b301500">
 
+In the Lambda service, go to the 'Code' tab, and add the code from the repository (image-scaler-code.py). Remember to change the name of the destination bucket to your own. Then, click 'Deploy'.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/edab96a5-5a64-4823-ae61-787ba25f03b0">
+
+Upload a photo to S3. To do this, go to the S3 service, select the source bucket, and navigate to the 'images' folder. Then, click 'Upload'.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/30cb5d48-3590-48e1-84a5-ee9e40000226">
+
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/5b3a3d2e-f414-4653-b934-15e49ada2fad">
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/e40ad3ba-c640-49b5-8935-9dd6d0471749">
+
 
 
 
