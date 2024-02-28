@@ -23,7 +23,7 @@ Then, go into it and create a folder named **'images'** where we will place the 
 ![Screenshot 2024-02-28 at 16 14 04](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/dfcd4028-70af-44fd-82f8-d68fad44720c)
 ![Screenshot 2024-02-28 at 16 14 18](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3720416c-1f54-4ba5-9b0e-b9ec7478ef05)
 
-Repeat the same process for the **destination bucket**.
+Repeat the same process for the **destination bucket** and create a folder named '**resized'** in it
 ![Screenshot 2024-02-26 at 16 22 31](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/12549d32-0a62-4c6a-ac54-67438266ed56)
 
 Now we configure the **Lambda service**. You can find it in the search bar.
@@ -46,7 +46,8 @@ Go to properties.
 Swipe down to event notifications and create one.
 ![Screenshot 2024-02-26 at 16 44 56](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9e2eb313-5ad5-450e-8627-ba4ac447d28b)
 
-In the general configuration, provide a **name for our event**, which does **not need to be unique**. In the **prefix, specify the folder that we created in the source S3 bucket**. Set the **event type as 'put'**.
+In the **general configuration**, provide a **name for our event**, which does **not need to be unique**. In the **prefix, specify the folder that we created in the source S3 bucket**. Set the **event type as 'put'**.
+In the **destination tab**, select the **name of the created Lambda service** and leave the rest of the options as default. Click on **'Save changes'**.
 ![Screenshot 2024-02-26 at 16 48 17](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f93f5482-dc7d-4a9e-8241-24540267eff7)
 
 
