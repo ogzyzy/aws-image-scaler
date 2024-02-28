@@ -42,8 +42,10 @@ Go to properties.
 Swipe down to event notifications and create one.
 ![Screenshot 2024-02-26 at 16 44 56](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9e2eb313-5ad5-450e-8627-ba4ac447d28b)
 
-In the general configuration, provide a **name for our event**, which does **not need to be unique**. In the **prefix, specify the folder that we opened in the source S3 bucket**. Set the **event type as 'put'**.
+In the general configuration, provide a **name for our event**, which does **not need to be unique**. In the **prefix, specify the folder that we created in the source S3 bucket**. Set the **event type as 'put'**.
 ![Screenshot 2024-02-26 at 16 48 17](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f93f5482-dc7d-4a9e-8241-24540267eff7)
+
+
 
 
 
