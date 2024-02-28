@@ -24,7 +24,8 @@ Then, go into it and create a folder named **'images'** where we will place the 
 ![Screenshot 2024-02-28 at 16 14 04](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/dfcd4028-70af-44fd-82f8-d68fad44720c)
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3720416c-1f54-4ba5-9b0e-b9ec7478ef05">
 
-Repeat the same process for the **destination bucket** and create a folder named '**resized'** in it
+Repeat the same procees for the **destination bucket** and create a folder named **'resized'** in it.
+
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/b5918acd-b296-4bed-94f2-a39d00e5c97e">
 ---
 ### Configure Lambda service
