@@ -55,6 +55,22 @@ In the **destination tab**, select the **name of the created Lambda service** an
 After navigating to the Lambda function, you can see that the source bucket has been added as a trigger. Uploading an image to it will trigger the programmed process of scaling.
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/6f085a9f-d24d-428b-95bb-dd3e8009f4b6">
 
+We will also need to adjust the timeout for the Lambda function to ensure the service works correctly.
+To do this, go to 'Configuration'. In the general configuration, you will find an option to edit.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/2a53923d-b4a2-4f85-b1e4-472727ed1c48">
+
+Change the timeout to 1 minute and save the changes.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/946710ba-3c06-43ec-a51d-706f19dd517e">
+
+The Lambda function will also need permissions to fully access the S3 resources. To do this, we need to use the IAM service. You can find it in the search bar.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/ddb604c2-2781-4b33-8e35-b0268eec485b">
+
+In the Roles tab, select the settings for the Lambda function created earlier.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/74c5af13-34c3-4e38-befd-524ba398021d">
+
+
+
+
 
 
 
