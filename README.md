@@ -62,12 +62,14 @@ To do this, go to 'Configuration'. In the general configuration, you will find a
 Change the timeout to 1 minute and save the changes.
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/946710ba-3c06-43ec-a51d-706f19dd517e">
 
-The Lambda function will also need permissions to fully access the S3 resources. To do this, we need to use the IAM service. You can find it in the search bar.
-<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/ddb604c2-2781-4b33-8e35-b0268eec485b">
+The Lambda function will also need permissions to fully access the S3 resources. To do this, in the 'Permissions' tab, navigate to the IAM settings for the Lambda function.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f816ca93-9b35-4d90-86bd-268ebe89cf44">
 
-In the Roles tab, select the settings for the Lambda function created earlier.
-<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/74c5af13-34c3-4e38-befd-524ba398021d">
+Expand 'Add permission' and click 'Attach policies'.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/25e61614-2a65-4e43-bb1f-0e0409feeecd">
 
+Search for the policy named "AmazonS3FullAccess" for S3, select it, and add it.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/da002dac-e59d-45d0-a0d4-e7163b301500">
 
 
 
