@@ -9,7 +9,7 @@ The application architecture consists of two main components:
 
 ## How to Create an Application
 
-### 
+#
 ### Configure S3 Buckets 
 ---
 
