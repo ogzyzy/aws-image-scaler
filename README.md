@@ -9,9 +9,8 @@ The application architecture consists of two main components:
 
 ## How to Create an Application
 
-### 
-Configure S3 Buckets
----
+### Configure S3 Buckets ---
+
 
 First, we need to set up an S3 Bucket for uploading images and another one where the processed images will be stored. Let's log in to the AWS console and in the search bar, search for S3 Bucket.
 
