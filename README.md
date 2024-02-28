@@ -1,7 +1,7 @@
 # aws-image-scaler
 
 ![Screenshot 2024-02-27 at 16 55 38](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/acfcccf9-b0fe-4ffe-bf8c-3c0383f178b4)
-The application architecture consists of three main components:
+The application architecture consists of two main components:
 
 **Amazon S3 Bucket:** Serves as the storage for uploaded images. Whenever an image is uploaded to this bucket, it triggers an event.
 
@@ -33,3 +33,17 @@ For r**untime**, choose **Python 3.12** and **architecture as x86_64**. Leave th
 ![Screenshot 2024-02-26 at 16 30 36](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/048fb6ad-a40b-4c50-a104-d1a9c6b6c5b3)
 
 Now we need to create an event in the source S3 Bucket. To do this, [go to the S3 Bucket service.](#Configure-S3-Buckets)
+Here you will see the two S3 buckets created earlier. Click on the one that serves as the source bucket
+![Screenshot 2024-02-26 at 16 38 59](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/57a87c6c-6936-4432-81f7-e1d8c4c485a8)
+
+Go to properties.
+![Screenshot 2024-02-26 at 16 44 05](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/ff6fcc7e-6602-4a04-9c10-0f5b18f3abd6)
+
+Swipe down to event notifications and create one.
+![Screenshot 2024-02-26 at 16 44 56](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9e2eb313-5ad5-450e-8627-ba4ac447d28b)
+
+In the general configuration, provide a **name for our event**, which does **not need to be unique**. In the **prefix, specify the folder that we opened in the source S3 bucket**. Set the **event type as 'put'**.
+![Screenshot 2024-02-26 at 16 48 17](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f93f5482-dc7d-4a9e-8241-24540267eff7)
+
+
+
