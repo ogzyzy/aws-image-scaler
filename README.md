@@ -33,6 +33,7 @@ Repeat the same procees for the **destination bucket** and create a folder named
 
 <hr>
 
+
 ### Configure Lambda service
 
 Now we configure the **Lambda service**. You can find it in the search bar.
