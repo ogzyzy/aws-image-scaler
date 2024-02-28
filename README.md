@@ -9,12 +9,12 @@ The application architecture consists of two main components:
 
 # Contents
 
-1. [Configure S3 Buckets](#Configure-S3-Buckets)
-2. [Configure Lambda service](#Configure-Lambda-service)
-3. [Event creation](#Event-creation)
-4. [Lambda timeout](#Lambda-timeout)
-5. [Lambda policies](#Lambda-policies)
-6. [Code import](#Code-import)
+1. [Configure S3 Buckets](Configure-S3-Buckets)
+2. [Configure Lambda service](Configure-Lambda-service)
+3. [Event creation](Event-creation)
+4. [Lambda timeout](Lambda-timeout)
+5. [Lambda policies](Lambda-policies)
+6. [Code import](Code-import)
 7. [Using the application](Using-the-application) 
 
 # How to Create an Application
