@@ -95,7 +95,8 @@ Search for the policy named "AmazonS3FullAccess" for S3, select it, and add it.
 
 In the Lambda service, go to the 'Code' tab, and add the code from the repository (image-scaler-code.py). Remember to change the name of the destination bucket to your own. Then, click 'Deploy'.
 
-```import json
+```
+import json
 import boto3
 
 s3_client = boto3.client('s3')
