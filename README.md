@@ -35,9 +35,8 @@ Repeat the same procees for the **destination bucket** and create a folder named
 <hr>
 
 
-### 
-Configure Lambda service
----
+## Configure Lambda service
+
 
 Now we configure the **Lambda service**. You can find it in the search bar.
 
@@ -54,9 +53,7 @@ For r**untime**, choose **Python 3.12** and **architecture as x86_64**. Leave th
 
 <hr> 
 
-### 
-Event creation
----
+## Event creation
 
 Now we need to create an event in the source S3 Bucket. To do this, [go to the S3 Bucket service.](#Configure-S3-Buckets)
 Here you will see the two S3 buckets created earlier. Click on the one that serves as the source bucket
@@ -84,9 +81,7 @@ After navigating to the Lambda function, you can see that the source bucket has 
 
 <hr> 
 
-### 
-Lambda timeout
----
+## Lambda timeout
 
 We will also need to adjust the timeout for the Lambda function to ensure the service works correctly.
 To do this, go to 'Configuration'. In the general configuration, you will find an option to edit.
@@ -99,7 +94,7 @@ Change the timeout to 1 minute and save the changes.
 
 <hr>
 
-### Lambda policies
+## Lambda policies
 
 The Lambda function will also need permissions to fully access the S3 resources. To do this, in the 'Permissions' tab, navigate to the IAM settings for the Lambda function.
 
@@ -115,9 +110,7 @@ Search for the policy named "AmazonS3FullAccess" for S3, select it, and add it.
 
 <hr>
 
-### 
-Code import
----
+## Code import
 
 In the Lambda service, go to the 'Code' tab, and add the code from the repository (image-scaler-code.py). Remember to change the name of the destination bucket to your own. Then, click 'Deploy'.
 
@@ -160,9 +153,7 @@ def lambda_handler(event, context):
 
 <hr>
 
-### 
-Using the application 
----
+## Using the application 
 
 Upload a photo to S3. To do this, go to the S3 service, select the source bucket, and navigate to the 'images' folder. Then, click 'Upload'.
 
