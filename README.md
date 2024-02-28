@@ -24,7 +24,7 @@ Then, go into it and create a folder named **'images'** where we will place the 
 ![Screenshot 2024-02-28 at 16 14 18](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3720416c-1f54-4ba5-9b0e-b9ec7478ef05)
 
 Repeat the same process for the **destination bucket** and create a folder named '**resized'** in it
-![Screenshot 2024-02-26 at 16 22 31](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/12549d32-0a62-4c6a-ac54-67438266ed56)
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/b5918acd-b296-4bed-94f2-a39d00e5c97e">
 
 Now we configure the **Lambda service**. You can find it in the search bar.
 ![Screenshot 2024-02-26 at 16 23 11](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9451bb1b-bbbc-4863-a917-f6c78880c850)
