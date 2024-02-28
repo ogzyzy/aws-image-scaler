@@ -65,6 +65,7 @@ In the **general configuration**, provide a **name for our event**, which does *
 In the **destination tab**, select the **name of the created Lambda service** and leave the rest of the options as default. Click on **'Save changes'**.
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/5bfdf230-e767-4c37-b958-f4ef0ec5274f">
+
 ![Screenshot 2024-02-26 at 16 48 17](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/8a8e736f-de97-4e11-ba0f-5ee38b1c06e9)
 
 After navigating to the Lambda function, you can see that the source bucket has been added as a trigger. Uploading an image to it will trigger the programmed process of scaling.
