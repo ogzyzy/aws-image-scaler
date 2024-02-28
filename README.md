@@ -49,6 +49,8 @@ Swipe down to event notifications and create one.
 In the **general configuration**, provide a **name for our event**, which does **not need to be unique**. In the **prefix, specify the folder that we created in the source S3 bucket**. Set the **event type as 'put'**.
 In the **destination tab**, select the **name of the created Lambda service** and leave the rest of the options as default. Click on **'Save changes'**.
 ![Screenshot 2024-02-26 at 16 48 17](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f93f5482-dc7d-4a9e-8241-24540267eff7)
+![Screenshot 2024-02-26 at 16 48 17](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/8a8e736f-de97-4e11-ba0f-5ee38b1c06e9)
+
 
 
 
