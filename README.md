@@ -82,6 +82,9 @@ Drag and drop or click Add files.
 Then click Upload.
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/e40ad3ba-c640-49b5-8935-9dd6d0471749">
 
+By navigating to the resized folder in the destination bucket, you can see your scaled image.
+<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/c0acff34-5903-4340-88ae-17efea548b3b">
+
 
 
 
