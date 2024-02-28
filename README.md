@@ -79,7 +79,7 @@ After navigating to the Lambda function, you can see that the source bucket has 
 
 <hr> 
 
-### Lambda configuration
+### Lambda timeout
 
 We will also need to adjust the timeout for the Lambda function to ensure the service works correctly.
 To do this, go to 'Configuration'. In the general configuration, you will find an option to edit.
@@ -89,6 +89,10 @@ To do this, go to 'Configuration'. In the general configuration, you will find a
 Change the timeout to 1 minute and save the changes.
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/946710ba-3c06-43ec-a51d-706f19dd517e">
+
+<hr>
+
+### Lambda policies
 
 The Lambda function will also need permissions to fully access the S3 resources. To do this, in the 'Permissions' tab, navigate to the IAM settings for the Lambda function.
 
@@ -101,6 +105,10 @@ Expand 'Add permission' and click 'Attach policies'.
 Search for the policy named "AmazonS3FullAccess" for S3, select it, and add it.
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/da002dac-e59d-45d0-a0d4-e7163b301500">
+
+<hr>
+
+### Code import
 
 In the Lambda service, go to the 'Code' tab, and add the code from the repository (image-scaler-code.py). Remember to change the name of the destination bucket to your own. Then, click 'Deploy'.
 
@@ -140,6 +148,10 @@ def lambda_handler(event, context):
 ```
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/edab96a5-5a64-4823-ae61-787ba25f03b0">
+
+<hr>
+
+### Using the application 
 
 Upload a photo to S3. To do this, go to the S3 service, select the source bucket, and navigate to the 'images' folder. Then, click 'Upload'.
 
