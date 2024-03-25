@@ -115,9 +115,11 @@ I expanded 'Add permission' and clicked 'Attach policies'.
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/25e61614-2a65-4e43-bb1f-0e0409feeecd">
 
-I found the policy named "AmazonS3FullAccess" for S3, selected it, and added it.
+I found the policy named "AmazonS3FullAccess" and "AmazonEC2ContainerRegistryReadOnly", selected it, and added it.
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/da002dac-e59d-45d0-a0d4-e7163b301500">
+
+<img width="988" alt="Screenshot 2024-03-25 at 17 58 05" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3d7e23e0-b70c-4101-b28d-998a8732cc5a">
 
 <hr>
 
