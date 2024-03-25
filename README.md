@@ -10,7 +10,7 @@ The application architecture consists of two main components:
 
 # Contents
 
-1. [Creating Docker container](#Creating-Docker-container]
+1. [Creating Docker container](#Creating-Docker-container)
 2. [Configuration of Lambda service](#Configuration-of-Lambda-service)
 3. [Configuration of S3 Buckets](#Configuration-of-S3-Buckets)
 4. [Event creation](#Event-creation)
@@ -34,6 +34,11 @@ Then, I built a Docker image which I named aws-image-scaler.
 
 <img width="682" alt="Screenshot 2024-03-25 at 18 22 27" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/6bbeaf69-48f4-4326-897a-f14f65ba378a">
 
+The next step was to create an **AWS ECR** repository and push the built image to it.
+
+<img width="682" alt="Screenshot 2024-03-25 at 19 17 58" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/e15263d4-9530-406d-b033-41e08e295e12">
+
+Once the image was in the repository, I could use it to set up the Lambda.
 
 ## Configuration of Lambda service
 
