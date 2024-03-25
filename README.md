@@ -158,7 +158,7 @@ I clicked "Add files" to select the photo for upload.
 
 After selecting the files, I clicked on the "Upload" button to upload the photo to the S3 bucket.
 
-<img width="1095" alt="Screenshot 2024-03-25 at 23 42 19" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f7f18c66-d13b-4c3c-9584-c19534a59a1d">
+<img width="1095" alt="Screenshot 2024-02-28 at 17 34 42" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/5d104a97-792b-4980-ba7b-8ae824c11d7b">
 
 By navigating to the resized folder in the destination bucket, we can see scaled image.
 
