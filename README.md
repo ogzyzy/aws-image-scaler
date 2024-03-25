@@ -1,6 +1,7 @@
 # AWS Image Scaler
 
-![Screenshot 2024-02-27 at 16 55 38](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/acfcccf9-b0fe-4ffe-bf8c-3c0383f178b4)
+<img width="1041" alt="Screenshot 2024-03-25 at 17 48 49" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/8ae62f45-15da-4de4-a32d-94baa7cd2c23">
+
 The application architecture consists of two main components:
 
 **Amazon S3 Bucket:** Serves as the storage for uploaded images. Whenever an image is uploaded to this bucket, it triggers an event.
