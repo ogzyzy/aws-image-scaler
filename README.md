@@ -36,7 +36,7 @@ Then, I built a Docker image which I named aws-image-scaler.
 
 The next step was to create an **AWS ECR** repository and push the built image to it.
 
-<img width="682" alt="Screenshot 2024-03-25 at 19 17 58" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/e15263d4-9530-406d-b033-41e08e295e12">
+<img width="682" alt="Screenshot 2024-03-25 at 19 17 58" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/10992d4a-5903-43a7-9d30-7075652b1e39">
 
 Once the image was in the repository, I could use it to set up the Lambda.
 
