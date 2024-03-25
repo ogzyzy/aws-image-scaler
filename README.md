@@ -15,8 +15,7 @@ The application architecture consists of two main components:
 3. [Event creation](#Event-creation)
 4. [Lambda timeout](#Lambda-timeout)
 5. [Lambda policies](#Lambda-policies)
-6. [Code import](#Code-import)
-7. [Using the application](#Using-the-application) 
+6. [Using the application](#Using-the-application) 
 
 # How I Created an Application
 
@@ -57,10 +56,9 @@ I selected **"Create a function."**
 
 ![Screenshot 2024-02-26 at 16 28 03](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/33f8ef3f-f49e-4da7-9a2d-03bb3aacd3a6)
 
-Here, I needed to provide information for my service. The function name **does not need to be unique** like in the case of S3 Buckets.
-For **runtime**, I chose **Python 3.12** and **architecture as x86_64**. I left the rest of the options as default and clicked **"Create function."**
+I selected a **Container image**, then named my Lambda function. I chose an image from the **ECR repository** to which I had previously pushed a container image. I left the architecture at **x86_64** and clicked create function.
 
-![Screenshot 2024-02-26 at 16 30 36](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/048fb6ad-a40b-4c50-a104-d1a9c6b6c5b3)
+<img width="1007" alt="Screenshot 2024-03-25 at 19 14 35" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3703c6a1-999e-44e0-baaf-2513b16743e2">
 
 <hr> 
 
