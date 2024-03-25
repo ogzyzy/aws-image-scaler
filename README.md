@@ -56,9 +56,13 @@ I selected **"Create a function."**
 
 ![Screenshot 2024-02-26 at 16 28 03](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/33f8ef3f-f49e-4da7-9a2d-03bb3aacd3a6)
 
-I selected a **Container image**, then named my Lambda function. I chose an image from the **ECR repository** to which I had previously pushed a container image. I left the architecture at **x86_64** and clicked create function.
+I selected a **Container image**, then named my Lambda function. I chose an image from the **ECR repository** to which I had previously pushed a container image. I left the architecture at **x86_64**.
 
 <img width="1007" alt="Screenshot 2024-03-25 at 19 14 35" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3703c6a1-999e-44e0-baaf-2513b16743e2">
+
+<img width="970" alt="Screenshot 2024-03-25 at 19 18 58" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/dc57755d-216f-4a80-af38-8e9ba6edadf7">
+
+Then I clicked **Create function**.
 
 <img width="1008" alt="Screenshot 2024-03-25 at 19 19 40" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f84205f7-3490-4642-ab9b-8ebfcb1c4d98">
 
