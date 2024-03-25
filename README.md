@@ -31,7 +31,7 @@ To start, I created a folder for my Docker image, in which I placed the Dockerfi
 
 Then, I built a Docker image which I named aws-image-scaler.
 
-<img width="638" alt="Screenshot 2024-03-25 at 18 22 27" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/6bbeaf69-48f4-4326-897a-f14f65ba378a">
+<img width="682" alt="Screenshot 2024-03-25 at 18 22 27" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/6bbeaf69-48f4-4326-897a-f14f65ba378a">
 
 
 ## Configuration of Lambda service
