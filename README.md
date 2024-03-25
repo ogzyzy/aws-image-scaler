@@ -10,14 +10,51 @@ The application architecture consists of two main components:
 
 # Contents
 
-1. [Configure S3 Buckets](#Configuration-of-S3-Buckets)
-2. [Configure Lambda service](#Configuration-of-Lambda-service)
+1. [Configure Lambda service](#Configuration-of-Lambda-service)
+2. [Configure S3 Buckets](#Configuration-of-S3-Buckets)
 3. [Event creation](#Event-creation)
 4. [Lambda timeout](#Lambda-timeout)
 5. [Lambda policies](#Lambda-policies)
 6. [Using the application](#Using-the-application) 
 
 # How I Created an Application
+
+## Creating of Docker container
+
+To implement an image resizing function in Lambda, we need the **Python Pillow library**. For this purpose, I set up a **Docker container** to create the appropriate environment for the application.
+
+<hr>
+
+To start, I created a folder for my Docker image, in which I placed the Dockerfile and the application code.
+
+<img width="682" alt="Screenshot 2024-03-25 at 18 19 08" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/e09e35e0-d52c-4bb6-876c-a43c775852c5">
+
+Then, I built a Docker image which I named aws-image-scaler.
+
+<img width="638" alt="Screenshot 2024-03-25 at 18 22 27" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/6bbeaf69-48f4-4326-897a-f14f65ba378a">
+
+
+## Configuration of Lambda service
+
+Now, I configured the **Lambda service**. I found it in the search bar.
+
+![Screenshot 2024-02-26 at 16 23 11](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9451bb1b-bbbc-4863-a917-f6c78880c850)
+
+I selected **"Create a function."**
+
+![Screenshot 2024-02-26 at 16 28 03](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/33f8ef3f-f49e-4da7-9a2d-03bb3aacd3a6)
+
+I selected a **Container image**, then named my Lambda function. I chose an image from the **ECR repository** to which I had previously pushed a container image. I left the architecture at **x86_64**.
+
+<img width="1007" alt="Screenshot 2024-03-25 at 19 14 35" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3703c6a1-999e-44e0-baaf-2513b16743e2">
+
+<img width="1007" alt="Screenshot 2024-03-25 at 19 18 58" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/dc57755d-216f-4a80-af38-8e9ba6edadf7">
+
+Then I clicked **Create function**.
+
+<img width="1008" alt="Screenshot 2024-03-25 at 19 19 40" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f84205f7-3490-4642-ab9b-8ebfcb1c4d98">
+
+<hr> 
 
 ## Configuration of S3 Buckets 
 
@@ -43,30 +80,6 @@ I repeated the same process for the **destination bucket** and created a folder 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/b5918acd-b296-4bed-94f2-a39d00e5c97e">
 
 <hr>
-
-
-## Configuration of Lambda service
-
-
-Now, I configured the **Lambda service**. I found it in the search bar.
-
-![Screenshot 2024-02-26 at 16 23 11](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/9451bb1b-bbbc-4863-a917-f6c78880c850)
-
-I selected **"Create a function."**
-
-![Screenshot 2024-02-26 at 16 28 03](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/33f8ef3f-f49e-4da7-9a2d-03bb3aacd3a6)
-
-I selected a **Container image**, then named my Lambda function. I chose an image from the **ECR repository** to which I had previously pushed a container image. I left the architecture at **x86_64**.
-
-<img width="1007" alt="Screenshot 2024-03-25 at 19 14 35" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3703c6a1-999e-44e0-baaf-2513b16743e2">
-
-<img width="970" alt="Screenshot 2024-03-25 at 19 18 58" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/dc57755d-216f-4a80-af38-8e9ba6edadf7">
-
-Then I clicked **Create function**.
-
-<img width="1008" alt="Screenshot 2024-03-25 at 19 19 40" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f84205f7-3490-4642-ab9b-8ebfcb1c4d98">
-
-<hr> 
 
 ## Event creation
 
