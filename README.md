@@ -10,16 +10,17 @@ The application architecture consists of two main components:
 
 # Contents
 
-1. [Configure Lambda service](#Configuration-of-Lambda-service)
-2. [Configure S3 Buckets](#Configuration-of-S3-Buckets)
-3. [Event creation](#Event-creation)
-4. [Lambda timeout](#Lambda-timeout)
-5. [Lambda policies](#Lambda-policies)
-6. [Using the application](#Using-the-application) 
+1. [Creating Docker container](#Creating-Docker-container]
+2. [Configuration of Lambda service](#Configuration-of-Lambda-service)
+3. [Configuration of S3 Buckets](#Configuration-of-S3-Buckets)
+4. [Event creation](#Event-creation)
+5. [Lambda timeout](#Lambda-timeout)
+6. [Lambda policies](#Lambda-policies)
+7. [Using the application](#Using-the-application) 
 
 # How I Created an Application
 
-## Creating of Docker container
+## Creating Docker container
 
 To implement an image resizing function in Lambda, we need the **Python Pillow library**. For this purpose, I set up a **Docker container** to create the appropriate environment for the application.
 
