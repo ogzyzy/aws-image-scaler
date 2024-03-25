@@ -60,6 +60,8 @@ I selected a **Container image**, then named my Lambda function. I chose an imag
 
 <img width="1007" alt="Screenshot 2024-03-25 at 19 14 35" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3703c6a1-999e-44e0-baaf-2513b16743e2">
 
+<img width="1008" alt="Screenshot 2024-03-25 at 19 19 40" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/f84205f7-3490-4642-ab9b-8ebfcb1c4d98">
+
 <hr> 
 
 ## Event creation
