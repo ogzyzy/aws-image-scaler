@@ -24,7 +24,7 @@ The application architecture consists of two main components:
 
 First, I needed to set up an S3 Bucket for uploading images and another one where the processed images would be stored. So, I logged into the AWS console and in the search bar, searched for S3 Bucket.
 
-<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/a75a4fed-4a5a-456d-bb7f-d53fb7915ee9">
+![Screenshot 2024-02-26 at 16 00 59](https://github.com/ogzyzy/aws-image-scaler/assets/157073744/1396d6a7-1c72-4978-8365-c311dadc9709)
 
 After navigating to the S3 service, I selected "Create Bucket."
 
