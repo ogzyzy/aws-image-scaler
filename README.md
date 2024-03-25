@@ -142,7 +142,7 @@ I found the policy named "AmazonS3FullAccess" and "AmazonEC2ContainerRegistryRea
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/da002dac-e59d-45d0-a0d4-e7163b301500">
 
-<img width="988" alt="Screenshot 2024-03-25 at 17 58 05" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3d7e23e0-b70c-4101-b28d-998a8732cc5a">
+<img width="1095" alt="Screenshot 2024-03-25 at 17 58 05" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/3d7e23e0-b70c-4101-b28d-998a8732cc5a">
 
 <hr>
 
@@ -152,9 +152,9 @@ To upload a photo to S3, I went to the S3 service, selected the source bucket, a
 
 <img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/30cb5d48-3590-48e1-84a5-ee9e40000226">
 
-I dragged and dropped the file into the designated area or clicked "Add files" to select the photo for upload.
+I clicked "Add files" to select the photo for upload.
 
-<img width="1095" alt="Screenshot 2024-02-26 at 19 32 52" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/5b3a3d2e-f414-4653-b934-15e49ada2fad">
+<img width="1095" alt="Screenshot 2024-03-25 at 22 50 35" src="https://github.com/ogzyzy/aws-image-scaler/assets/157073744/87a7096b-c92d-4d7c-9a24-f64396b225d2">
 
 After selecting the files, I clicked on the "Upload" button to upload the photo to the S3 bucket.
 
