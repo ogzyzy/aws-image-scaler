@@ -10,5 +10,5 @@ To change the scaling factor of images, you need to modify how new_size is calcu
 
 ```
 # Scaling the image by half (originally)
-new_size = (int(image.width / 2), int(image.height / 2))```
-
+new_size = (int(image.width / 2), int(image.height / 2))
+```
