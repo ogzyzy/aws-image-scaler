@@ -8,6 +8,7 @@ If you wish to change this behavior so that images are scaled by a factor of 'x'
 To change the scaling factor of images, you need to modify how new_size is calculated in the Lambda script. Below is the code snippet you need to change:
 <hr>
 
-``` # Scaling the image by half (originally)
+```
+# Scaling the image by half (originally)
 new_size = (int(image.width / 2), int(image.height / 2))```
 
